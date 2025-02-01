@@ -10,6 +10,8 @@ const OrderSummary: React.FC<{ bookingDetails: any }> = ({
         src="https://example.com/property.jpg"
         alt="Property"
         className="w-32 h-32 object-cover rounded-md"
+        width={500}
+        height={300}
       />
       <div className="ml-4">
         <h3 className="text-lg font-semibold">{bookingDetails.propertyName}</h3>
